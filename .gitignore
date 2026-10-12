@@ -1,0 +1,30 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datos grandes
+datos/*.csv
+datos/*.pkl
+contexto_2026/
+
+# Escudos (copyright)
+escudos/
+
+# Kaggle credentials (NUNCA subir)
+.kaggle/
+kaggle.json
+
+# Entorno
+.env
+venv/
+env/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
