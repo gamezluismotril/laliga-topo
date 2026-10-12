@@ -5,17 +5,21 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 
-# Datos grandes
-datos/*.csv
-datos/*.pkl
+# Datos grandes que NO necesitamos
 contexto_2026/
+datos/SP1_historico.csv
+datos/SP1_2026.csv
+datos/SP1_unificado.csv
+datos/SP1_features_full.csv
+datos/SP1_consenso.csv
+datos/SP1_features_base.csv
 
-# Escudos (copyright)
-escudos/
-
-# Kaggle credentials (NUNCA subir)
+# Kaggle credentials
 .kaggle/
 kaggle.json
+
+# Config con contraseñas
+config.yaml
 
 # Entorno
 .env
